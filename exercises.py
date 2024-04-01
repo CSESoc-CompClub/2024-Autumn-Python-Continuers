@@ -16,13 +16,18 @@ def main():
     # Your name
     print("What's your name?")
     name = example_func()
+    print()
 
     # The length of your name
     print("How many letters are there in your name?")
     length = name_length(name)
-    print(f"{length}'s name has {length} letters")
+    print(f"{length}'s name has {length} letters\n")
 
-    ## TODO: add your exersise functions below, be as silly and creative as you want :) ## 
+    # Catbus Capacity
+    print("Mei is lost! How much ground have we covered?")
+    test(10, ground_covered([5, 2, 3]))
+
+    ## TODO: add your exersise functions below, be as silly and creative as you want :) ##
 
 def example_func():
     """prints your name and returns your name
@@ -42,6 +47,27 @@ def name_length(name):
     """
     # TODO: replace me with your code
     return 0
+
+def ground_covered(distances):
+    """returns the ground covered
+    Args:
+        distances (int[]): ground covered by each character
+    Returns:
+        int: total ground covered
+    """
+    # TODO: add your code here
+    return 0
+
+def test(expected, actual):
+    """
+    Helper for testing, useful for computational exersises
+    """
+    if expected != actual:
+        print("\x1b[31m+----------- Test Failed -----------+\x1b[89m")
+        print(f"expected {expected} but received {actual}")
+    else:
+        print("\x1b[32m+----------- Test Passed -----------+\x1b[89m")
+    print("\x1b[0m\x1b[0m\r", end="")
 
 if __name__ == "__main__":
     main()
