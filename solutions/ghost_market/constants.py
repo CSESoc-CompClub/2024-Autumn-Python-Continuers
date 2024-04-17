@@ -17,4 +17,20 @@ CATALOGUE = {
     },
 }
 
+# Returns True if the Item exists in the Catalogue
+# Returns False otherwise
+def is_valid_item(item):
+    for category in CATALOGUE:
+        if item in CATALOGUE[category]:
+            return True
+    return False 
+
+# Returns the price of the item if it exists in the Catalogue
+# Returns None otherwise
+def get_price(item):
+    for category in CATALOGUE:
+        if item in CATALOGUE[category]:
+            return CATALOGUE[category][item]
+    return None 
+
 # maybe just a non nested map since this is a bit overkill

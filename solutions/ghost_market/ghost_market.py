@@ -12,7 +12,7 @@ from .constants import CATALOGUE
 # we should try to be helpful if that happens.
 try:
 	from .welcome import welcome, get_next_customer, display_catalogue
-	from .shop import buy_item, remove_item, show_items
+	from .shop import add_to_cart, remove_from_cart, show_items
 	from .checkout import checkout
 except ImportError:
 	# TODO: Print a helpful error message.
@@ -40,10 +40,10 @@ def main():
 			break;
 		
 		elif command in ('b', 'buy'):
-			cart = buy_item(cart)
+			cart = add_to_cart(cart)
 
 		elif command in ('r', 'remove'):
-			cart = remove_item(cart)
+			cart = remove_from_cart(cart)
 
 		elif command in ('s', 'show'):
 			show_items(cart)
