@@ -1,7 +1,8 @@
 # 👻 Ghost market shopping spree!!🛍️
 
 ## Getting Started
-All the files you need to edit are in the `ghost_market` directory.
+- All the ghost market files are in the `ghost_market/` folder
+- To run ghost market, use `python ghost_market/ghost_market.py`
 
 ## Task 1: Come one, come all!
 ### 1.1 welcome()
