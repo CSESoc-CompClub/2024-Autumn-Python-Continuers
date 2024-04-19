@@ -5,15 +5,15 @@
 # from working on this project.
 # 	The CompClub Team
 
-from .constants import CATALOGUE
+from constants import CATALOGUE
 
 # Import the code written by the students. They might delete the
 # function definition entirely, or do something else crazy, so
 # we should try to be helpful if that happens.
 try:
-    from .welcome import welcome, get_next_customer, display_catalogue
-    from .shop import add_to_cart, remove_from_cart, show_items
-    from .checkout import checkout
+    from welcome import welcome, get_next_customer, display_catalogue
+    from shop import add_to_cart, remove_from_cart, show_items
+    from checkout import checkout
 except ImportError:
     # TODO: Print a helpful error message.
     pass
@@ -59,5 +59,10 @@ def main():
                 "		q, quit - Close the market\n"
                 "		b, buy - Add an item to cart\n"
                 "		r, remove - Remove an item from cart\n"
+                "		s, show - Show items in your cart\n"
                 "		c, checkout - Finalise and checkout your order!"
             )
+
+
+if __name__ == "__main__":
+    main()

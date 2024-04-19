@@ -1,5 +1,5 @@
 """
-Open your stall with a welcome message, 
+Open your stall with a welcome message,
 and get your customer's name!
 
 This is your first task of the project.
@@ -15,7 +15,11 @@ def welcome():
 
 
 def get_next_customer() -> str:
-    """Prompt the customer for their name, and return it"""
+    """
+    Prompt the customer for their name, and return it
+
+    HINT: Use the `input` function
+    """
     # <Solution>
     return input("Enter your name: ")
     # </Solution>
@@ -23,8 +27,15 @@ def get_next_customer() -> str:
 
 
 def display_catalogue():
-    """Display every item in the catalogue."""
+    """
+    Display every item in the catalogue.
+
+    HINT: Use the `CATALOGUE` dictionary from `constants.py`
+    HINT: Use a `for in` loop (e.g. `for category in CATALOGUE`)
+    HINT: For some prettier formatting, use tabs in your print statements (e.g. `print("\t" + ...)`)
+    """
     # <Solution>
     print(f"Here's what we have on the catalogue tonight: \n")
+    #... print the dictionary, this is up to students
     # </Solution>
     pass

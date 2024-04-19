@@ -12,32 +12,6 @@ example_cart = {"Konpeito": 3, "Aji Fry": 2}
 example_customer = "Bob"
 
 
-def checkout(name, cart):
-    """
-    Prompt the customer to enter their payment amount
-        -> If they have enough money, we print a reciept containing details on our purchase
-        -> If they don't have enough money, let the customer know :'(
-    Hint: You are expected to use print_reciept() in this function (maybe look at that first!)
-    """
-    # TODO: IMPLEMENT THIS FUNCTION
-    pass
-
-    # Solution
-    print("== Checkout ==")
-    payment = input("Enter payment amount: ")
-
-    cost = 0
-    for item in cart:
-        cost += get_price(item)
-
-    if float(payment) < float(cost):
-        print(
-            "Sorry, you don't have enough money to buy all the items in your cart! :("
-        )
-    else:
-        print_reciept(name, cart, payment)
-
-
 def print_reciept(name, cart, paid_amount):
     """
     Given a cart, and how much money the customer paid,
@@ -74,6 +48,32 @@ def print_reciept(name, cart, paid_amount):
     change = float(paid_amount) - float(total_cost)
     f.write("{0:20}  ${1}".format("CHANGE", change))
     print("{0:20}  ${1}".format("CHANGE", change))
+
+
+def checkout(name, cart):
+    """
+    Prompt the customer to enter their payment amount
+        -> If they have enough money, we print a reciept containing details on our purchase
+        -> If they don't have enough money, let the customer know :'(
+    Hint: You are expected to use print_reciept() in this function (maybe look at that first!)
+    """
+    # TODO: IMPLEMENT THIS FUNCTION
+    pass
+
+    # Solution
+    print("== Checkout ==")
+    payment = input("Enter payment amount: ")
+
+    cost = 0
+    for item in cart:
+        cost += get_price(item)
+
+    if float(payment) < float(cost):
+        print(
+            "Sorry, you don't have enough money to buy all the items in your cart! :("
+        )
+    else:
+        print_reciept(name, cart, payment)
 
 
 """ Expected output (have enough money):
