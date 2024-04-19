@@ -13,44 +13,13 @@ example_customer = "Bob"
 
 
 def print_reciept(name, cart, paid_amount):
-    total_cost = 0
-    print("Thank you " + name + " for shopping with us! ^.^!")
-    print("Reciept:")
-
-    f = open(f"{name}.txt", "a")
-    f.write("")
-    for item in cart:
-        item_details = item + " x" + str(cart[item])
-        cost = get_price(item)
-        line = "{0:20}  ${1}".format(item_details, cost)
-        f.write(line + "\n")
-        print(line)
-        total_cost += float(cost)
-
-    f.write("\n{0:20}  ${1}\n".format("TOTAL", total_cost))
-    f.write("{0:20}  ${1}\n".format("PAID", paid_amount))
-    print("\n{0:20}  ${1}".format("TOTAL", total_cost))
-    print("{0:20}  ${1}".format("PAID", paid_amount))
-
-    change = float(paid_amount) - float(total_cost)
-    f.write("{0:20}  ${1}".format("CHANGE", change))
-    print("{0:20}  ${1}".format("CHANGE", change))
+    # TODO: Write your code here
+    pass
 
 
 def checkout(name, cart):
-    print("== Checkout ==")
-    payment = input("Enter payment amount: ")
-
-    cost = 0
-    for item in cart:
-        cost += get_price(item)
-
-    if float(payment) < float(cost):
-        print(
-            "Sorry, you don't have enough money to buy all the items in your cart! :("
-        )
-    else:
-        print_reciept(name, cart, payment)
+    # TODO: Write your code here
+    pass
 
 
 """ Expected output (have enough money):
