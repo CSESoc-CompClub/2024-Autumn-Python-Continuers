@@ -2,8 +2,8 @@
 Checkout our order!
 
 This is your third task of the project. A useful function from constants.py has been imported for you, if you
-want to use other functions you can import them in a similar manner. 
-An example cart and customer have been given to you to test the functions. Scroll to the bottom to see expected output. 
+want to use other functions you can import them in a similar manner.
+An example cart and customer have been given to you to test the functions. Scroll to the bottom to see expected output.
 """
 
 from constants import get_price
@@ -91,7 +91,7 @@ CHANGE                $11.0
 
 """ Expected output (not enough money):
 == Checkout ==
-Enter payment amount: 2 
+Enter payment amount: 2
 Sorry, you don't have enough money to buy all the items in your cart! :(
 """
 
