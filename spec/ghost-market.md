@@ -57,7 +57,7 @@ Prompt the customer for an item to remove:
 > -
 > - You can use the Dictionaries `.pop()` method to remove an item from the cart
 
-### 2.3 Challenge: show_items()
+### 2.3 show_items()
 We need to see what our cart looks like!
 
 Display the names and quantities of items that the customer
@@ -81,3 +81,48 @@ Total: $ 67.5
 > -
 > - Try use "\t" in your print statements to make it look nice
 > - You can use the get_price() function from constants.py to get the price of an item
+
+## Task 3: Wise financial decisions
+
+Expected output (have enough money):
+```
+== Checkout ==
+Enter payment amount: 20
+Thank you Bob for shopping with us! ^.^!
+Reciept:
+Konpeito x3           $0.5
+Aji Fry x2            $8.5
+
+TOTAL                 $9.0
+PAID                  $20
+CHANGE                $11.0
+```
+
+Expected output (not enough money):
+```
+== Checkout ==
+Enter payment amount: 2
+Sorry, you don't have enough money to buy all the items in your cart! :(
+```
+
+### 3.1 print_reciept()
+Lets print a reciept to show us how much money we've spent 😲
+
+Given a cart, and how much money the customer paid,
+print a reciept of the purchase to console.
+Hint: To print in columns, we use '{0:20}  ${1}'.format(variable1, variable2)
+    - 0:20 means 20 spaces between 1st column and 2nd column
+
+Optional task: At the same time, create a file named customer_name.txt which contains the receipt.
+Example receipt - Jack.txt
+
+### 3.2 checkout()
+Lets finally go and spend that precious money of ours!
+
+Prompt the customer to enter their payment amount
+- If they have enough money, we print a reciept containing details on our purchase
+- If they don't have enough money, let the customer know :'(
+
+> HINT
+> -
+> Hint: You are expected to use print_reciept() in this function (maybe look at that first!)
