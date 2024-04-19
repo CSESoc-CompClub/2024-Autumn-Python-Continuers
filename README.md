@@ -1,7 +1,35 @@
-# 2024-Autumn-Python-Continuers
-2024 (Autumn) Continuers to Python
+# 🐍 Continuers to Python! 🐍
 
-## Getting Started
-1. Install python extension
-<img width="303" alt="Screenshot 2024-04-18 at 4 56 50 pm" src="https://github.com/CSESoc-CompClub/2024-Autumn-Pygame/assets/96902642/a6cfe1c5-cd5c-4751-84d2-190b0906b271">
-<img width="301" alt="Screenshot 2024-04-18 at 5 00 16 pm" src="https://github.com/CSESoc-CompClub/2024-Autumn-Pygame/assets/96902642/476ce84a-feb5-4276-8e4e-16c7f4cf7522">
+## Links
+[Slides](https://go.compclub.org/python)
+
+[Feedback: Intro to Python](https://go.compclub.org/feedback-intro)
+
+[Feedback: Continuers to Python](https://go.compclub.org/feedback-intermediate)
+
+## Content Summary
+0. Setting up
+1. [Ghost Market](./spec/ghost_market.md)
+
+## Setting up
+Before we start working, we first need to set up the Python extension on VSCode, so that we can make life easier :)
+
+We first click the little tile button on the left sidebar
+![setup1](./spec/images/setup1.png)
+
+Then search up 'python' and install the first option
+![setup2](./spec/images/setup2.png)
+
+Yayy we're all ready to roll now!
+
+
+## Running the Program
+You can either click the `Run` button on the top right corner of VSCode like this:
+
+![setup3](./spec/images/setup3.png)
+
+orr you could use the terminal by first `cd`-ing (**c**hanging our **d**irectory -- ie the folder we are working in) and running our file manually
+```
+$ cd directory-name
+$ python3 file_name.py
+```
