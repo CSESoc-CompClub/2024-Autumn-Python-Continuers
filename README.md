@@ -15,7 +15,7 @@
 4. [If-Else](./spec/4-ifelse.md)
 5. [While Loops](./spec/5-loops.md)
 6. [Lists](./spec/6-lists.md)
-7. [Debugging](./spec/7-debugging.md
+7. [Debugging](./spec/7-debugging.md)
 8. For Loops (no exercises)
 9. [Dictionaries](./spec/9-dictionaries.md)
 10. [Functions](./spec/10-functions.md)
