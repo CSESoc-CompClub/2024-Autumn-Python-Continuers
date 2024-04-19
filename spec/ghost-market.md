@@ -4,6 +4,9 @@
 - All the ghost market files are in the `ghost_market/` folder
 - To run ghost market, use `python ghost_market/ghost_market.py`
 
+## Getting Started
+All the files you need to edit are in the `ghost_market` directory.
+
 ## Task 1: Come one, come all!
 ### 1.1 welcome()
 Welcome our new customer to the ghost market. Print a welcoming welcome message!
