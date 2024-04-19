@@ -25,20 +25,6 @@ def add_character():
   f.write(string)
   f.close()
 
-"""
-Expected Output:
-=== Spirited Away Archive ===
-What action do you want to carry out? (add | get)
-add
-== Adding Character ==
-Name: Bob
-Age: 57
-Species: human
-Hobby: drinking red wine
-Fun fact: has a long beard
-Character has been added to file!
-"""
-
 
 """
 Function get_character(): Given the name of character, return the line containing its character details if found.
@@ -56,26 +42,7 @@ def get_character(name):
       return line
   return 'Character not found!'
 
-""" Expected output:
-=== Spirited Away Archive ===
-What action do you want to carry out? (add | get | read)
-get
-== Retrieving Character ==
-What is the character's name? Chihiro
-== Character Details ==
-Name: Chihiro
-Age: 10
-Species: human
-Hobby: swimming
-Fun fact: spirits like her very much
 
-=== Spirited Away Archive ===
-What action do you want to carry out? (add | get | read)
-get
-== Retrieving Character ==
-What is the character's name? jack
-Character not found!
-"""
 
 # DO NOT MODIFY BELOW THIS LINE
 if __name__ == '__main__':
