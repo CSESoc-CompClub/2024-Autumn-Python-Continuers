@@ -1,9 +1,9 @@
-# 💫 Looooops 😵‍💫
+# 💫 While Looooops 😵‍💫
 The code for this exercise can be found in `exercises/5-loops/`.
 
 You can manually run your code by clicking the play button, or:
 ```
-$ cd ~/Desktop/2024-autumn-python-intro/exercises/5-loops
+$ cd ~/Desktop/2024-autumn-python-intro/exercises/5-while-loops
 $ python3 {FILE_NAME}.py
 ```
 
