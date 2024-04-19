@@ -1,10 +1,6 @@
 # 👻 Ghost market shopping spree!!🛍️
 
 ## Getting Started
-- All the ghost market files are in the `ghost_market/` folder
-- To run ghost market, use `python ghost_market/ghost_market.py`
-
-## Getting Started
 All the files you need to edit are in the `ghost_market` directory.
 
 ## Task 1: Come one, come all!
@@ -63,7 +59,8 @@ Prompt the customer for an item to remove:
 ### 2.3 show_items()
 We need to see what our card looks like!
 
-Display the names and quantities of items that the customer
+Display the names and quantities of items that the cust
+omer
 has added to their cart. Also sum up the current total and print it.
 
 Try get this format:
