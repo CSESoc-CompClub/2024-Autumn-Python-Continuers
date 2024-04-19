@@ -9,7 +9,11 @@
 
 ## Content Summary
 0. Setting up
-1. [Ghost Market](./spec/ghost_market.md)
+1. [Printing](./spec/1-printing.md)
+2. [Variables](./spec/2-variables.md)
+3. [Input](./spec/3-input.md)
+4. [If-Else](./spec/4-ifelse.md)
+5. [Loops](./spec/5-loops.md)
 
 ## Setting up
 Before we start working, we first need to set up the Python extension on VSCode, so that we can make life easier :)

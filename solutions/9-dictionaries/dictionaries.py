@@ -36,12 +36,3 @@ def countries_and_capitals():
   print('In the end, Jack visited', sum, 'capital cities.')
 
 countries_and_capitals()
-
-"""
-Expected Output:
-The capital of USA is Washington D.C.
-The capital of China is Beijing
-The capital of Japan is Tokyo
-THe capital of Spain is Madrid
-In the end, Jack visited 4 capital cities.
-"""
