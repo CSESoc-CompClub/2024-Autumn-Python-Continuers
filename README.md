@@ -13,7 +13,14 @@
 2. [Variables](./spec/2-variables.md)
 3. [Input](./spec/3-input.md)
 4. [If-Else](./spec/4-ifelse.md)
-5. [Loops](./spec/5-loops.md)
+5. [While Loops](./spec/5-loops.md)
+6. [Lists](./spec/6-lists.md)
+7. [Debugging](./spec/7-debugging.md)
+8. For Loops (no exercises)
+9. [Dictionaries](./spec/9-dictionaries.md)
+10. [Functions](./spec/10-functions.md)
+11. [Files](./spec/11-files.md)
+12. [Project: Ghost Market Shopping Spree!!](./spec/ghost-market.md)
 
 ## Setting up
 Before we start working, we first need to set up the Python extension on VSCode, so that we can make life easier :)

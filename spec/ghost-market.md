@@ -59,7 +59,8 @@ Prompt the customer for an item to remove:
 ### 2.3 show_items()
 We need to see what our card looks like!
 
-Display the names and quantities of items that the customer
+Display the names and quantities of items that the cust
+omer
 has added to their cart. Also sum up the current total and print it.
 
 Try get this format:

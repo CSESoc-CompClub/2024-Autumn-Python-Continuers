@@ -15,19 +15,7 @@ def add_to_cart(cart):
 
     HINT: You can use the is_valid_item() function from constants.py to check if the item exists in the catalogue
     """
-
-    # <SOLUTION>:
-    item = input("What would you like to buy? ")
-    if is_valid_item(item):
-        if item in cart:
-            cart[item] += 1
-        else:
-            cart[item] = 1
-        print("Added 1", item, "to cart.")
-    else:
-        print("Sorry, we do not have that item.")
-    # </SOLUTION>:
-
+    # TODO: Write your code here
     return cart
 
 
@@ -39,18 +27,7 @@ def remove_from_cart(cart):
 
     HINT: You can use the Dictionaries .pop() method to remove an item from the cart
     """
-
-    # <SOLUTION>:
-    item = input("What would you like to remove? ")
-    if item in cart:
-        cart[item] -= 1
-        if cart[item] == 0:
-            cart.pop(item)
-            print("Removed 1", item, "removed from cart.")
-    else:
-        print("Sorry, you do not have that item in your cart.")
-    # </SOLUTION>:
-
+    # TODO: Write your code here
     return cart
 
 
@@ -73,15 +50,5 @@ def show_items(cart):
     HINT: Try use "\t" in your print statements to make it look nice
     HINT: You can use the get_price() function from constants.py to get the price of an item
     """
-
-    # <SOLUTION>:
-    total = 0
-    print("Your cart:")
-    print("QUANTITY \t ITEM")
-    for item in cart:
-        print(cart[item], "\t\t", item)
-        total += get_price(item) * cart[item]
-    print("\nTotal: $", total)
-    # </SOLUTION>:
-
+    # TODO: Write your code here
     pass
