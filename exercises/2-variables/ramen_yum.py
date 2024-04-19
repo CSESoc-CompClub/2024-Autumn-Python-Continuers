@@ -13,7 +13,7 @@ PI = 3.14159265359
 # Hint: Do you remember how to get a whole number while dividing?
 
 def main():
-    seaweed = float(input("How many sheets of seaweed: "))
+    seaweed = 7
     print("The number of ramen: ")
 
 #################################################

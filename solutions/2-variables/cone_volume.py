@@ -13,8 +13,8 @@ PI = 3.14159265359
 # Hint: Do you remember what data type we use for decimals?
 
 def main():
-    radius = float(input("Radius of the cone = "))
-    height = float(input("Height of the cone = "))
+    radius = 8
+    height = 12
     res = PI * (radius ** 2) * height / 3
     print("%.2f" % res)
 

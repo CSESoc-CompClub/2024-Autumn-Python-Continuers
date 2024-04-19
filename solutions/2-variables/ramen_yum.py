@@ -11,7 +11,7 @@
 # Hint: Do you remember how to get a whole number while dividing?
 
 def main():
-    seaweed = float(input("How many sheets of seaweed: "))
+    seaweed = 7
     print("The number of ramen: ", int(seaweed / 3))
 
 main()
