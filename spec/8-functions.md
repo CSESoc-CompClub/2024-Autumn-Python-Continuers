@@ -1,5 +1,5 @@
 # 📕 FUNctions 🌟
-The code for this exercise can be found in `exercises/10-functions/`.
+The code for this exercise can be found in `exercises/8-functions/`.
 
 You can manually run your code by clicking the play button, or:
 ```
@@ -7,7 +7,7 @@ $ cd ~/Desktop/2024-autumn-python-intro/exercises/10-functions
 $ python3 {FILE_NAME}.py
 ```
 
-## Task 10.1: Fruit Stock
+## Task 8.1: Fruit Stock
 **Task file:** `fruit_stock.py`
 Welcome to your new job as an (unpaid) fruit stocker!
 This program contains 5 functions, 1 of which has already been completed for you.

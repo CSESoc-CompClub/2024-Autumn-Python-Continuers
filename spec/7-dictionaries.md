@@ -1,5 +1,5 @@
 # 📕 Dictionaries 🌟
-The code for this exercise can be found in `exercises/9-dictionaries/`.
+The code for this exercise can be found in `exercises/7-dictionaries/`.
 
 You can manually run your code by clicking the play button, or:
 ```
@@ -7,7 +7,7 @@ $ cd ~/Desktop/2024-autumn-python-intro/exercises/9-dictionaries
 $ python3 {FILE_NAME}.py
 ```
 
-## Task 9.1: Around the world
+## Task 7.1: Around the world
 **Task file:** `dictionaries.py`
 A student named Jack is using a dictionary to make a list of all the countries he wants to visit in the future, starting with their capital cities.
 
